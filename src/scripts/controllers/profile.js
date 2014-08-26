@@ -42,4 +42,4 @@
   angular.module('Thoth')
     .controller('ProfileCtrl', ProfileCtrl);
 
-}(window))
+}(window));

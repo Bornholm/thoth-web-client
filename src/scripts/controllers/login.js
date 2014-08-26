@@ -24,4 +24,4 @@
 	angular.module('Thoth')
 		.controller('LoginCtrl', LoginCtrl);
 
-}(window))
+}(window));

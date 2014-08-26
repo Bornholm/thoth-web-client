@@ -103,4 +103,4 @@
 	angular.module('Thoth')
 		.controller('RecordCtrl', RecordCtrl);
 
-}(window))
+}(window));

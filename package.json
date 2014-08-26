@@ -1,0 +1,35 @@
+{
+  "name": "thoth-web-client",
+  "version": "0.0.0",
+  "description": "Thoth server client",
+  "main": "index.html",
+  "devDependencies": {
+    "del": "^0.1.2",
+    "gulp": "^3.8.7",
+    "gulp-angular-templatecache": "^1.3.0",
+    "gulp-if": "^1.2.4",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-replace": "^0.4.0",
+    "gulp-uglify": "^0.3.2",
+    "gulp-useref": "^0.6.0",
+    "merge-stream": "^0.1.5"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bornholm/thoth-web-client.git"
+  },
+  "keywords": [
+    "thoth",
+    "web"
+  ],
+  "author": "Bornholm <bornholm@ptitcloud.fr>",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/Bornholm/thoth-web-client/issues"
+  },
+  "homepage": "https://github.com/Bornholm/thoth-web-client"
+}

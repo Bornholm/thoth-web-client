@@ -52,4 +52,4 @@
   angular.module('Thoth')
     .controller('ButtonBarCtrl', ButtonBarCtrl);
 
-}(window))
+}(window));

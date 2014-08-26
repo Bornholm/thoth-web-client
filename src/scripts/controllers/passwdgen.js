@@ -35,4 +35,4 @@
   angular.module('Thoth')
     .controller('PasswdGenCtrl', PasswdGenCtrl);
 
-}(window, RandExp))
+}(window, RandExp));

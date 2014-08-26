@@ -4,7 +4,7 @@
   angular.module('Thoth')
     .constant('config', {
 
-      apiBaseURL: '/api', // Root API URL
+      apiBaseURL: 'http://localhost:8080/api', // Root API URL
 
       languages: {
         available: [

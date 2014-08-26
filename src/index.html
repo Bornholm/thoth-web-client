@@ -3,15 +3,17 @@
   <head>
     <title>Thoth</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Style -->
+    <!-- build:css css/thoth.css -->
+    <!-- CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/thoth.css" rel="stylesheet">
+    <!-- endbuild -->
   </head>
-  <body>
-    <ng-include ng-cloak ng-show="isNavbarVisible" src="'templates/navbar.html'" class="toggle"></ng-include>
+  <body translate-cloak>
+    <ng-include  ng-cloak ng-show="isNavbarVisible" src="'templates/navbar.html'" class="toggle"></ng-include>
     <div id="content" class="container" ng-cloak ng-view></div>
     <ng-include ng-cloak src="'templates/notifications.html'"></ng-include>
-    <!-- Libraries -->
+    <!-- build:js scripts/thoth.js -->
     <script type="text/javascript" src="vendor/randexp.min.js"></script>
     <script type="text/javascript" src="bower_components/marked/lib/marked.js"></script>
     <script type="text/javascript" src="bower_components/async/lib/async.js"></script>
@@ -27,8 +29,6 @@
     <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
     <script type="text/javascript" src="scripts/modules/light-rest.js"></script>
     <script type="text/javascript" src="scripts/thoth.js"></script>
-    <!--Client Configuration-->
-    <script type="text/javascript" src="client-config.js"></script>
     <!-- Filters -->
     <script type="text/javascript" src="scripts/filters/pluck.js"></script>
     <script type="text/javascript" src="scripts/filters/markdown.js"></script>
@@ -47,5 +47,9 @@
     <script type="text/javascript" src="scripts/controllers/record.js"></script>
     <script type="text/javascript" src="scripts/controllers/notifications.js"></script>
     <script type="text/javascript" src="scripts/controllers/passwdgen.js"></script>
+    <!-- endbuild -->
+    <!-- {{templateCache}} -->
+    <!-- Client Config -->
+    <script type="text/javascript" src="config.js"></script>
   </body>
 </html>
